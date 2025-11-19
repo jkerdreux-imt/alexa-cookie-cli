@@ -8,7 +8,7 @@ program
   .option('-A, --deviceAppName <AppName>', 'optional: Name of the Device registered with the Alexa app', 'alexa_cookie_cli')
   .option('-p, --amazonPage <page>', 'optional: possible to use with different countries, default is "amazon.de"', 'amazon.de')
   .option('-b, --baseAmazonPage <amazon.com|amazon.co.jp>', 'optional: Change the Proxy Amazon Page - all "western countries" directly use amazon.com! Change to amazon.co.jp for Japan', 'amazon.com')
-  .option('-a, --amazonPageProxyLanguage <lang>', 'optional: language to be used for the Amazon Sign-in page the proxy calls. default is "de_DE"', 'de_DE')
+  .option('-a, --amazonPageProxyLanguage <lang>', 'optional: language to be used for the Amazon Sign-in page the proxy calls. default is "fr_FR"', 'fr_FR')
   .option('-L, --acceptLanguage <lang>', 'optional: webpage language, should match to amazon-Page, default is "fr-FR"', 'fr-FR')
   .option('-H, --proxyOwnIp <IP of localhost>', 'provide own IP(!) to later access the proxy. needed to setup all rewriting and proxy stuff internally', '127.0.0.1')
   .option('-P, --proxyPort <port>', 'optional: use this port for the proxy, default is 8080', 8080)
